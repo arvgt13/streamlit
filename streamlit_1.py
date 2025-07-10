@@ -69,7 +69,7 @@ if prompt:
         with st.spinner("Generating the results..."):
             response = requests.post(
                 # "http://localhost:11434/api/generate",
-                "https://kszsm4ujqcy5.share.zrok.io/api/generate",
+                "https://zot2sof0ogfu.share.zrok.io/api/generate",
                 json={
                     "model": selected_model,
                     "prompt": prompt,
